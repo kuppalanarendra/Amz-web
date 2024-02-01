@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+}
+.navbar{
+    height: 60px;
+    
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2px;
+    padding-top: 2px;
+    margin-bottom: 2px;
+    /* position: fixed; */
+    /* z-index: 100px; */
+   
+}
+.logo{
+
+    width:100px;
+    height: 60px;
+    margin-left:1px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.first{
+    font-size: 12px;
+    margin-left: 15px;
+}
+.second{
+    font-size: 14px;
+    margin-left: 15px;
+}
+.nav-search{
+    border: 2px solid yellow !important;
+    /* margin-left: 15px; */
+    display: flex;
+    background-color:pink;
+    /* width: 500px; */
+    height: 40px;
+    border-radius:4px;
+    justify-content:space-between;
+    margin-top: 5px;
+
+}
+.search-input{
+    width: 500px;
+}
+.searc-icon{
+    margin-top: 5px;
+   padding-top: 2px;
+    width: 40px;
+    /* display: flex; */
+    size: 5px;
+    margin-left: 5px;
+}   
+.nav-cart{
+    margin-top: 5px;
+    font-size: 18px;
+    text-align: center;
+    
+    
+}
+#main{
+    /* position: sticky; */
+    /* z-index: 100px;  */
+}
+    

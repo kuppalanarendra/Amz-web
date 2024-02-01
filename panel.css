@@ -1,0 +1,50 @@
+.pnel{
+    background-color:rgba(0, 0, 0, 0.759);
+    color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* position: fixed; */
+    /* z-index: 1000px; */
+    /* margin-top: 60px; */
+
+
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+
+}
+.lst p{
+    display:inline;
+    align-items: center;
+    justify-content: space-between;
+
+    
+    margin-left: 15px;
+   
+}
+.lst p:hover{
+    border: 1.5px solid white;
+}
+#lst{
+    width: 800px;
+}
+.panel-deals{
+    margin-right: 0px;
+    
+
+}
+.msg{
+    background-color: gray;
+    height: 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
